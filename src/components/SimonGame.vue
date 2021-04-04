@@ -112,7 +112,7 @@ export default {
             }
         },
         hoverBtn(num){
-            this.buttons[num].hoverbtn = true;
+            this.buttons[num].hoverbtn = true
             setTimeout(() => this.buttons[num].hoverbtn = false, 300)
         },
          soundPlay(sound) {
@@ -173,14 +173,16 @@ export default {
             border-radius: 5px
             cursor: pointer
             opacity: 0.9
-            margin: 0 auto
+            margin: 5px auto
             width: 50%
             &:hover
                 opacity: 1
         &-lose
             color: red
         @media (max-width: 600px)
-            margin: 400px 100px;
+            margin: 400px 100px
+        &-radiobtn
+            margin-top: 10px
     &-button
         @media (max-width: 600px)
             margin: 0 20px;
