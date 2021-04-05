@@ -104,12 +104,12 @@ export default {
                     this.lose = true
                     return
                 }
-                if(this.massPo.length === this.massPr.length){
+            }
+             if(this.massPo.length === this.massPr.length){
                     this.round++
                     this.probably = false
                     this.addNewBtn()
                 }
-            }
         },
         hoverBtn(num){
             this.buttons[num].hoverbtn = true
