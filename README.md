@@ -54,5 +54,3 @@ To run the project in your local environment, follow these steps:
    The app will run on [http://localhost:8080](http://localhost:8080).
 
 ## 📹 Video
-
-(Here you can link a video demonstration if you have one.)
